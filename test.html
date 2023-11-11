@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content" >
+        <ul >
+            <a href="" ><li id="test">trang chủ </li></a>
+            <a href="" ><li id="test1">trang chủ </li></a>
+            <a href="" ><li id="test2">trang chủ </li></a>
+        </ul>
+        
+    </div>
+    <div class="test" id="thu">
+<p>chọn</p>
+<p>chọn</p>
+    </div>
+    <script>
+ document.getElementById("test").addEventListener("mouseover", thu1);
+ document.getElementById("test").addEventListener("mouseout",thu2);
+
+ document.getElementById("test1").addEventListener("mouseover", thu3);
+ document.getElementById("test1").addEventListener("mouseout",thu4);
+
+ document.getElementById("test2").addEventListener("mouseover", thu5);
+ document.getElementById("test2").addEventListener("mouseout",thu6);
+function thu1(){
+    document.getElementById("thu").style.background="red";
+}
+function thu2(){
+    document.getElementById("thu").style.background="none";
+}
+
+function thu3(){
+    document.getElementById("thu").style.background="blue";
+}
+function thu4(){
+    document.getElementById("thu").style.background="none";
+}
+
+function thu5(){
+    document.getElementById("thu").style.background="green";
+}
+function thu6(){
+    document.getElementById("thu").style.background="none";
+}
+    </script>
+</body>
+</html>

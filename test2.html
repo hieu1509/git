@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content" >
+        <ul >
+            <a href="" ><li id="test">trang chủ </li></a>
+            <a href="" ><li id="test1">trang chủ </li></a>
+            <a href="" ><li id="test2">trang chủ </li></a>
+        </ul>
+        
+    </div>
+    <div class="test,test1,test2" id="thu">
+<p>chọn</p>
+<p>chọn</p>
+    </div>
+    <script>
+ document.getElementById("test").addEventListener("mouseover", thu1);
+ document.getElementById("test").addEventListener("mouseout",thu2);
+function thu1(){
+    document.getElementById("thu").style.background="red";
+}
+function thu2(){
+    document.getElementById("thu").style.background="none";
+}
+    </script>
+</body>
+</html>
